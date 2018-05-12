@@ -2,6 +2,9 @@
 <html>
 <body>
 <h2>
-<a href="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxf646a09f953a22b6&redirect_uri=http%3A%2F%2F53f67f6b.ngrok.io%2Fwechat%2Flogin.do&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect" >微信登录</a></h2>
+个人信息：<<br>
+    昵称 : ${info.nickname} <br>
+    头像 ： ${info.headimgurl}
+
 </body>
 </html>
